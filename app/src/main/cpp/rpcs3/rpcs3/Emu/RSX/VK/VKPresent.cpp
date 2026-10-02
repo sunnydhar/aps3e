@@ -31,7 +31,7 @@ namespace
             return use_bgra_fmt?VK_FORMAT_B8G8R8A8_UNORM:VK_FORMAT_R8G8B8A8_UNORM;
             case CELL_VIDEO_OUT_BUFFER_COLOR_FORMAT_X8B8G8R8:
                 // Force BGRA8 for Mali since RGBA8 causes gralloc crashes during presentation
-                return (vk::get_current_renderer()->get_driver_vendor() == vk::driver_vendor::ARM_MALI_G57) ? VK_FORMAT_B8G8R8A8_UNORM : VK_FORMAT_R8G8B8A8_UNORM;
+                return (vk::get_current_renderer()->get_driver_vendor() == vk::driver_vendor::ARM_MALI) ? VK_FORMAT_B8G8R8A8_UNORM : VK_FORMAT_R8G8B8A8_UNORM;
             case CELL_VIDEO_OUT_BUFFER_COLOR_FORMAT_R16G16B16X16_FLOAT:
 			return VK_FORMAT_R16G16B16A16_SFLOAT;
 		}
