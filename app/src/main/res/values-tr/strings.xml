@@ -70,7 +70,7 @@
 	<string name="emulator_settings_core_thread_affinity_mask">İş Parçacığı İlişki Maskesi</string>
 	<string name="create_shortcut">Kısayol Oluştur</string>
 	<string name="loading">Yükleniyor...</string>
-	<string name="resolution_not_support">Çözünürlük veya en-boy oranı desteklenmiyor\nGeçerli oyun yalnızca şunları destekler:\n%s\n\nAyarları şu şekilde değiştirin:\n%s\n%s\n</string>
+	<string name="resolution_not_support" formatted="false">Çözünürlük veya en-boy oranı desteklenmiyor\nGeçerli oyun yalnızca şunları destekler:\n%s\n\nAyarları şu şekilde değiştirin:\n%s\n%s\n</string>
 	<string name="show_game_info">Oyun Bilgilerini Göster</string>
 	<string name="quick_start_page">Hızlı Başlatma Sayfası</string>
 	<string name="prev_step">Önceki Adım</string>

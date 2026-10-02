@@ -77,7 +77,7 @@
     <string name="emulator_settings_core_thread_affinity_mask">Maschera di Affinità dei Thread</string>
     <string name="create_shortcut">Crea Scorciatoia</string>
     <string name="loading">Caricamento...</string>
-    <string name="resolution_not_support">Risoluzione o rapporto d’aspetto non supportato\nIl gioco attuale supporta solo:\n%s\n\nModificare con le seguenti impostazioni:\n%s\n%s\n</string>
+    <string name="resolution_not_support" formatted="false">Risoluzione o rapporto d’aspetto non supportato\nIl gioco attuale supporta solo:\n%s\n\nModificare con le seguenti impostazioni:\n%s\n%s\n</string>
     <string name="show_game_info">Mostra Informazioni Gioco</string>
     <string name="quick_start_page">Pagina di Avvio Rapido</string>
     <string name="prev_step">Passo Precedente</string>
